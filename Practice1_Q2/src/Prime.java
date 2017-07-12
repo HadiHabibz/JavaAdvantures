@@ -3,7 +3,6 @@
 // prints all the prime numbers up to that number
 // It uses Trial Division algorithm
 
-
 import javax.swing.JOptionPane;
 
 public class Prime 
