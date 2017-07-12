@@ -28,7 +28,7 @@ public class Sort
 		this.size = (size >= 0 ) ? size : 1;
 		data = new int[size];
 		reset( );
-	}
+	} // end sort
 	
 	
 	public void print( )
