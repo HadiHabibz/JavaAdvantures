@@ -190,7 +190,8 @@ public class Sudoku
 			else
 			{
 				JOptionPane.showMessageDialog( null, "Invalid difficulty. It must be one of the followings:\n"
-						+ "1. Solved\n2. Very Easy\n3. Easy\n4. Normal\n5. Hard\n6. Very Hard\nPress OK to try agian" );
+						+ "1. Solved\n2. Very Easy\n3. Easy\n4. Normal\n5. Hard\n6. Very Hard\n"
+						+ "Press OK to try agian" );
 				continue;
 			} // else
 			
