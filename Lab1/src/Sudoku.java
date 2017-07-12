@@ -167,24 +167,24 @@ public class Sudoku
 		do
 		{
 			difficulty = JOptionPane.showInputDialog( null,  "Plese choose the difficulty of the game: " );
-			difficulty.toLowerCase( );
+			difficulty = difficulty.toLowerCase( );
 			
-			if( difficulty.contains( "solved" ) )
+			if( difficulty.contains( "solved" ) ||  difficulty.contains( "1" ) )
 				deleteThisMany = 0;
 			
-			else if(  difficulty.contains( "very easy" ) || difficulty.contains( "veryeasy" ) )
+			else if(  difficulty.contains( "very easy" ) || difficulty.contains( "veryeasy" ) || difficulty.contains( "2" ) )
 				deleteThisMany = 18;
 			
-			else if( difficulty.contains( "easy" ) )
+			else if( difficulty.contains( "easy" ) ||  difficulty.contains( "3" ) )
 				deleteThisMany = 27;
 			
-			else if( difficulty.contains( "normal" ) )
+			else if( difficulty.contains( "normal" ) ||  difficulty.contains( "4" ) )
 				deleteThisMany = 36;
 			
-			else if( difficulty.contains( "hard" ) )
+			else if( difficulty.contains( "hard" )  ||  difficulty.contains( "5" ))
 				deleteThisMany = 45;
 			
-			else if( difficulty.contains( "veryhard" ) || difficulty.contains( "very hard" ) )
+			else if( difficulty.contains( "veryhard" ) || difficulty.contains( "very hard" ) ||  difficulty.contains( "6" ) )
 				deleteThisMany = 63;
 			
 			else
