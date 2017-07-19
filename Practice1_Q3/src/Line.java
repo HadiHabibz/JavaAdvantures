@@ -125,11 +125,14 @@ public class Line
 		String equation1 = new String( );
 		String equation2 = new String( );
 		
-		equation1 = JOptionPane.showInputDialog( "Please enter the first equation: " );
-		equation2 = JOptionPane.showInputDialog( "Please enter the second equation: " );
+		//equation1 = JOptionPane.showInputDialog( "Please enter the first equation: " );
+		//equation2 = JOptionPane.showInputDialog( "Please enter the second equation: " );
 		
-		Line line1 = new Line( equation1 );
-		Line line2 = new Line( equation2 );
+		//Line line1 = new Line( equation1 );
+		//Line line2 = new Line( equation2 );
+		
+		Line line1 = new Line();
+		Line line2 = new Line();
 		
 		line1.print( );
 		line2.print( );	
