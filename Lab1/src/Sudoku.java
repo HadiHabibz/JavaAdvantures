@@ -76,7 +76,7 @@ public class Sudoku
 		
 	} // end method print
 	
-	// Load a pre-defined puzzle into the grid
+	// Load a pre defined puzzle into the grid
 	public void initialize( )
 	{
 		final int[][] sample = { 
